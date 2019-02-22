@@ -18,4 +18,4 @@ def helloWorld():
     count = get_page_count()
     return 'Hello World! You have been here {} times.\n'.format(count)
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80, debug=True)
+    app.run(debug=True)
